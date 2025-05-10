@@ -1,1 +1,5 @@
-# Emotion_detection
+# Emotion_detection  
+This exercise focused on the design and training of convolutional neural networks (CNNs). Initially, we analyzed four datasets, examining aspects such as image types, data distribution across categories, labeling methods, and the presence of corrupted data. Based on this analysis, we selected two compatible datasets for combination.  
+We then performed preprocessing steps: resizing images to uniform dimensions, renaming files for consistency, and organizing the data into a structured directory. The dataset was split into training, validation, and test sets.  
+A CNN model was constructed and trained, followed by performance evaluation. Subsequently, we experimented with various architectural modifications, including adjustments to filters, padding, stride, the addition of layers, changes in pooling strategies (e.g., increasing max pooling size and incorporating average pooling), and alterations to activation functions and fully connected layers.
+We also explored different optimizers and assessed the impact of each change on model performance. The results were analyzed in detail, with visual aids such as charts and tables employed to illustrate outcomes and facilitate comparisons.
